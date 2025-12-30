@@ -1,0 +1,345 @@
+/* @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 999;
+  }
+  .container {
+    margin: 20px;
+  }
+  .logo {
+    width: 38%;
+    margin: 8% 6%;
+  }
+  .body-img {
+    width: 91.8%;
+    height: 91%;
+    margin: 0px 20px;
+  }
+  .text {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    width: 300px;
+    text-align: center;
+    text-align-last: center;
+    color: #fff;
+    font-family: "Poppins";
+  }
+  p {
+    margin-top: 10px;
+    max-width: 242px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #fff;
+  }
+  button {
+    width: 50%;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: hsl(300, 69%, 71%);
+    border: none;
+  }
+  button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials a {
+    border: white solid;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .attribution a {
+    color: hsl(230, 17%, 86%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 82.5%;
+    z-index: 999;
+  }
+
+  .container {
+    display: flex;
+    gap: 7rem;
+    
+  }
+  .logo {
+    width: 200px;
+    margin: 2% 0% 1% 2%;
+  }
+  .body-img {
+    width: 56rem;
+    height: 38rem;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    z-index: 999;
+  }
+  .text {
+    margin-top: 10rem;
+    width: 40rem;
+    height: 20rem;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    width: 380px;
+    color: #fff;
+    font-family: "Poppins";
+    margin-bottom: 20px;
+  }
+  p {
+    margin-top: 20px;
+    width: 33rem;
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #fff;
+  }
+  button {
+    width: 50%;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 10px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+  }
+  button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .socials {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    width: 150px;
+    position: relative;
+    bottom: -2rem;
+    left: 75%;
+  }
+  
+  .socials i {
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  
+  }
+  .attribution a {
+    color: hsl(230, 17%, 86%);
+  }
+} */
+
+@media screen and (max-width: 48rem) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 999;
+  }
+  .container {
+    margin: 1.25rem;
+  }
+  .logo {
+    width: 38%;
+    margin: 8% 6%;
+  }
+  .body-img {
+    width: 91.8%;
+    height: 91%;
+    margin: 0 1.25rem;
+  }
+  .text {
+    margin: 3.13rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.63rem;
+    font-weight: 600;
+    width: 18.75rem;
+    text-align: center;
+    text-align-last: center;
+    color: #fff;
+    font-family: "Poppins";
+  }
+  p {
+    margin-top: 0.63rem;
+    max-width: 15.13rem;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #fff;
+  }
+  button {
+    width: 50%;
+    padding: 0.94rem;
+    border-radius: 3.13rem;
+    margin-top: 1.88rem;
+    color: hsl(300, 69%, 71%);
+    border: none;
+  }
+  button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .socials {
+    display: flex;
+    gap: 0.63rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials a {
+    border: white solid;
+    border: 0.06rem solid;
+    border-radius: 50%;
+    padding: 0.63rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .attribution {
+    font-size: 0.69rem;
+    text-align: center;
+    margin: 0.63rem auto;
+  }
+  .attribution a {
+    color: hsl(230, 17%, 86%);
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 82.5%;
+    z-index: 999;
+  }
+
+  .container {
+    display: flex;
+    gap: 7rem;
+    
+  }
+  .logo {
+    width: 12.5rem;
+    margin: 2% 0% 1% 2%;
+  }
+  .body-img {
+    width: 56rem;
+    height: 38rem;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    z-index: 999;
+  }
+  .text {
+    margin-top: 10rem;
+    width: 40rem;
+    height: 20rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 23.75rem;
+    color: #fff;
+    font-family: "Poppins";
+    margin-bottom: 1.25rem;
+  }
+  p {
+    margin-top: 1.25rem;
+    width: 33rem;
+    font-size: 1.13rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #fff;
+  }
+  button {
+    width: 50%;
+    padding: 0.94rem;
+    border-radius: 3.13rem;
+    margin-top: 0.63rem;
+    color: hsl(257, 40%, 49%);
+    border: none;
+  }
+  button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .socials {
+    display: flex;
+    gap: 0.63rem;
+    justify-content: right;
+    align-items: center;
+    width: 9.38rem;
+    position: relative;
+    bottom: -2rem;
+    left: 75%;
+  }
+  
+  .socials i {
+    border: 0.06rem solid;
+    border-radius: 100%;
+    padding: 0.63rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .attribution {
+    font-size: 0.69rem;
+    text-align: center;
+  
+  }
+  .attribution a {
+    color: hsl(230, 17%, 86%);
+  }
+}
